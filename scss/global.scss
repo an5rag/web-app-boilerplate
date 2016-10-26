@@ -11,6 +11,14 @@
 @import 'base/_mixins.scss';
 @import 'base/_placeholders.scss';
 
+/* PAGES- Page and Components
+========================================================================== */
+
+@import 'base.scss';
+@import 'welcome.scss';
+//@import 'framework/_breakpoints.scss';
+//@import 'framework/_layout.scss';
+
 
 /* FRAMEWORK - Structure and layout files.
 ========================================================================== */

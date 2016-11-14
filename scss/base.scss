@@ -2,9 +2,9 @@ body{
   background-color: $backgroundColor;
 }
 
-html, h1, h2, h3, h4, h5, div, span, .row{
+html, h1, h2, h3, h4, h5, div, span, .row, .col{
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .centeringContainer{

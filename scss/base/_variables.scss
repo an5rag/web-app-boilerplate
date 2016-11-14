@@ -6,18 +6,74 @@ $charcoal: #373737;
 $darkGrey: #282828;
 $black: #181818;
 $white: white;
+$maroon: maroon;
 
 //color-scheme
 $backgroundColor: $white;
 $optionsBackgroundColor: $charcoal;
 $optionsFontColor: $paleGold;
 $plotsContainerBackgroundColor: $paper;
-$plotsContainerFontColor: $black;
+$plotsContainerFontColor: $maroon;
 
 
 //margins
-$sectionMargin: 10px;
-$categoryMargin: 5px;
+$sectionPadding: 6px;
+$subSectionMargin: 5px;
+
+
+.plotsContainer{
+  background-color: $paper;
+  color: $plotsContainerFontColor;
+  border: 1px solid black;
+}
+
+.options{
+  background-color: $charcoal;
+  color: $optionsFontColor;
+  border: 1px solid black;
+
+}
+
+
+.attribute-panel {
+  min-height: 100vh;
+  h1{
+    margin: 10px;
+  }
+  //margin: $sectionPadding;
+}
+
+.canvas {
+  min-height: 40vh;
+  h1{
+    margin: 10px;
+  }
+  //margin: $sectionPadding;
+}
+
+.zql {
+  min-height: 40vh;
+  h1{
+    margin: 10px;
+  }
+  //margin: $sectionPadding;
+}
+
+.matches {
+  min-height: 60vh;
+  h1{
+    margin: 10px;
+  }
+  //margin: $sectionPadding;
+}
+
+.trends {
+  min-height: 60vh;
+  h1{
+    margin: 10px;
+  }
+  //margin: $sectionPadding;
+}
 
 $welcomeBackgroundImage: "https://media.giphy.com/media/eLhY2D428VdfO/giphy.gif";
 

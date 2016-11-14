@@ -30,8 +30,8 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: "partials/components/matches.html",
                     controller: "OutputController"
                 },
-                'options-panel': {
-                    templateUrl: "partials/components/options-panel.html",
+                'attribute-panel': {
+                    templateUrl: "partials/components/attribute-panel.html",
                     controller: "InputController"
                 },
                 'trends': {
@@ -55,8 +55,8 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: "partials/components/matches.html",
                     controller: "OutputController"
                 },
-                'options-panel': {
-                    templateUrl: "partials/components/options-panel.html",
+                'attribute-panel': {
+                    templateUrl: "partials/components/attribute-panel.html",
                     controller: "InputController"
                 },
                 'trends': {
@@ -80,8 +80,8 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: "partials/components/matches.html",
                     controller: "OutputController"
                 },
-                'options-panel': {
-                    templateUrl: "partials/components/options-panel.html",
+                'attribute-panel': {
+                    templateUrl: "partials/components/attribute-panel.html",
                     controller: "InputController"
                 },
                 'trends': {

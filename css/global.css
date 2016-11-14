@@ -2,14 +2,49 @@
 ========================================================================== */
 /* BASE - Base Variable file along with starting point Mixins and Placeholders.
 ========================================================================== */
+.plotsContainer {
+  background-color: #F4F4F4;
+  color: maroon;
+  border: 1px solid black; }
+
+.options {
+  background-color: #373737;
+  color: #C0B283;
+  border: 1px solid black; }
+
+.attribute-panel {
+  min-height: 100vh; }
+  .attribute-panel h1 {
+    margin: 10px; }
+
+.canvas {
+  min-height: 40vh; }
+  .canvas h1 {
+    margin: 10px; }
+
+.zql {
+  min-height: 40vh; }
+  .zql h1 {
+    margin: 10px; }
+
+.matches {
+  min-height: 60vh; }
+  .matches h1 {
+    margin: 10px; }
+
+.trends {
+  min-height: 60vh; }
+  .trends h1 {
+    margin: 10px; }
+
 /* PAGES- Page and Components
 ========================================================================== */
 body {
   background-color: white; }
 
-html, h1, h2, h3, h4, h5, div, span, .row {
+html, h1, h2, h3, h4, h5, div, span, .row, .col {
   margin: 0;
-  padding: 0; }
+  padding: 0 !important; }
 
 .centeringContainer {
   display: flex;

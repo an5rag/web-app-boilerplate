@@ -8,8 +8,8 @@
   border: 1px solid black; }
 
 .options {
-  background-color: #373737;
-  color: #C0B283;
+  background-color: #2e2e2e;
+  color: #ffe5b4;
   border: 1px solid black; }
 
 .attribute-panel {
@@ -52,6 +52,14 @@ html, h1, h2, h3, h4, h5, div, span, .row, .col {
   justify-content: center;
   align-content: center; }
 
+.pane-section-title {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .pane-section-title h1, .pane-section-title h2, .pane-section-title h3 {
+    font-size: 150%; }
+  .pane-section-title hr {
+    width: 40%; }
+
 #welcome-page {
   background: url("https://media.giphy.com/media/eLhY2D428VdfO/giphy.gif") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -61,6 +69,124 @@ html, h1, h2, h3, h4, h5, div, span, .row, .col {
   min-height: 100vh;
   min-width: 100vw;
   color: white; }
+  #welcome-page img {
+    width: 400px;
+    height: auto; }
+  #welcome-page .title-box {
+    margin-top: -40px; }
+    #welcome-page .title-box .pre-title {
+      color: white;
+      font-size: 120%;
+      margin: 0; }
+    #welcome-page .title-box .title {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: white;
+      font-family: 'Abel', sans-serif; }
+
+.select-dropdown {
+  color: greenyellow;
+  font-size: 150%; }
+
+.caret {
+  color: white !important; }
+
+#main-chart {
+  display: block;
+  margin: auto;
+  padding: 0;
+  height: 39.7vh;
+  width: 100%;
+  border-right: 1px solid black;
+  background-color: white; }
+
+.buttons-for-drawing {
+  width: 70%;
+  background-color: #181818;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px; }
+  .buttons-for-drawing a {
+    width: 90%;
+    text-decoration: none;
+    color: white; }
+
+.footer-stuff a {
+  color: grey; }
+  .footer-stuff a:visited {
+    color: grey; }
+  .footer-stuff a:hover {
+    color: white; }
+  .footer-stuff a:active {
+    color: white; }
+.footer-stuff a {
+  transition: all 0.2s ease-in-out; }
+  .footer-stuff a i {
+    margin-right: 7px; }
+
+#main {
+  background: rgba(255, 255, 255, 0.5);
+  overflow: auto; }
+
+.axis text {
+  font-size: 10px; }
+
+.axis-label {
+  font-size: 13px; }
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+  vector-effect: non-scaling-stroke;
+  z-index: 50; }
+
+circle {
+  color: dodgerblue;
+  fill: dodgerblue;
+  radius: 3; }
+
+.hexagon {
+  fill: white;
+  stroke: #000;
+  stroke-width: .5px; }
+
+.brush .extent {
+  stroke: black;
+  fill: green;
+  fill-opacity: .125;
+  shape-rendering: crispEdges; }
+
+.brushRed .extent2 {
+  stroke: black;
+  fill: red;
+  fill-opacity: .2;
+  shape-rendering: crispEdges; }
+
+.chart-title {
+  font-size: 16px; }
+
+.selected {
+  fill: red;
+  fill-opacity: 1; }
+
+.userPolygon {
+  /*z-index: 999;*/
+  fill: green;
+  fill-opacity: .2;
+  stroke: black;
+  /*border: solid black 5px;*/
+  shape-rendering: crispEdges; }
+
+.red-polygon {
+  fill: red; }
+
+.highlightPolygon {
+  fill: blue; }
 
 /* FRAMEWORK - Structure and layout files.
 ========================================================================== */

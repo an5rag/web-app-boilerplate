@@ -3,7 +3,10 @@
  * It also establishes the routes and views used across the app.
  */
 
-var myApp = angular.module('zenvisageApp', ['ui.router', 'zenvisageControllers']);
+angular.module('zenvisageControllers', []);
+angular.module('zenvisageServices', []);
+
+var myApp = angular.module('zenvisageApp', ['ui.router', 'zenvisageControllers', 'zenvisageServices']);
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
     // For any unmatched url, redirect to welcome page
@@ -96,5 +99,3 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         });
 });
 
-
-angular.module('zenvisageControllers', []);

@@ -13,3 +13,14 @@ html, h1, h2, h3, h4, h5, div, span, .row, .col{
   justify-content: center;
   align-content: center;
 }
+
+.pane-section-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  h1, h2, h3 {
+    font-size: 150%;
+  }
+  hr {
+    width: 40%;
+  }
+}

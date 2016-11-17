@@ -1,9 +1,8 @@
 angular.module('zenvisageControllers')
 
-    .controller('OutputController', ['$scope','$rootScope', function ($scope,$rootScope) {
+    .controller('OutputController', ['$scope','$rootScope','ScatterService', function ($scope,$rootScope, ScatterService) {
         $scope.stuff = "This is an output element!";
-        $rootScope.$watch('shared', function() {
-            $scope.temp = $rootScope.shared.value;
-            console.log($rootScope.shared.value);
+        $rootScope.$watch('polygons', function() {
+            $scope.polygons = $rootScope.polygons;
         }, true);
     }]);

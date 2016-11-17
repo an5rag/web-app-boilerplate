@@ -5,3 +5,33 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+// Custom mixins
+@mixin linx($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@mixin linkContainer() {
+
+  @include linx(grey, grey, white, white);
+  a {
+
+    transition: all 0.2s ease-in-out;
+    i {
+      margin-right: 7px;
+    }
+
+  }
+
+}

@@ -1,3 +1,24 @@
-<h2>Hi! This is the canvas!</h2>
-{{stuff}}
-{{state.current.name}}
+<div class="row">
+    <div class="col s11">
+        <svg id="main-chart">
+        </svg>
+    </div>
+    <div class="col s1 ">
+        <div class="col s12 ">
+            <div class="buttons-for-drawing btn" ng-click="scatterService.drawPolygon()"><a ><i class="fa fa-plus" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="col s12 ">
+            <div class="buttons-for-drawing btn undo disabled" ng-click="scatterService.undoPolyPoints()"><a><i class="fa fa-undo" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="col s12 ">
+            <div class="buttons-for-drawing btn green-polygon disabled" ng-click="scatterService.changePolygonColorGreen()"><a style="color: forestgreen"><i class="fa fa-square" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="col s12 ">
+            <div class="buttons-for-drawing btn red-polygon disabled" ng-click="scatterService.changePolygonColorRed()"><a style="color: indianred"><i class="fa fa-square" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="col s12 ">
+            <div class="buttons-for-drawing btn  submit disabled" ng-click="submit()"><a><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+</div>
+
